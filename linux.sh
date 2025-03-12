@@ -27,9 +27,7 @@ malwares=(
 
 declare -A js_malwares
 js_malwares=(
-    ["Malware H"]="https = require(Buffer.from('aHR0cHM=', 'base64').toString())"
-    ["Malware I"]="Buffer.from('aHR0cHM6Ly8xbHMyLm9yZy91c2Vycy9qcy90ZXN0cy5qcw==', 'base64').toString()"
-    ["Malware J"]="const events = ['data', 'end', 'error', 'statusCode', 'global']"
+    ["Malware H"]="aHR0cHM6Ly8xbHMyLm9yZy91c2Vycy9qcy90ZXN0cy5qcw=="
 )
 
 echo "[MalScanner] Scanning started..."
