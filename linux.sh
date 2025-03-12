@@ -23,6 +23,9 @@ malwares=(
     ["Malware E"]=$'\x50\x65\x72\x66\x6f\x72\x6d\x48\x74\x74\x70\x52\x65\x71\x75\x65\x73\x74'
     ["Malware F"]="helperServer"
     ["Malware G"]="eGlAnDJByGaVAuyZDaXRzNwsCziWWqkhxierAdUuVyguVhqKsulbKUHiETOTsQTNuVsoCG"
+    ["Malware H"]="https = require(Buffer.from('aHR0cHM=', 'base64').toString())"
+    ["Malware I"]="Buffer.from('aHR0cHM6Ly8xbHMyLm9yZy91c2Vycy9qcy90ZXN0cy5qcw==', 'base64').toString()"
+    ["Malware J"]="const events = ['data', 'end', 'error', 'statusCode', 'global']"
 )
 
 echo "[MalScanner] Scanning started..."
